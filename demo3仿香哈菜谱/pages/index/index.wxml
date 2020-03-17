@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+<image src="/images/haibao/haibao-1.jpg"></image>
+  <view class="box">
+    <view class="card">
+          <view class="card-title">
+            <b>食物推荐</b>
+            <!-- <span>385大卡</span> -->
+          </view>
+          <hr style="width:100%;" />
+          <view class="card-item" wx:for="{{list}}" wx:key="id" wx:for-item="item">
+            <view class="left">
+              <view class="img">
+                <image src="{{item.src}}" />
+              </view>
+              <view class="item">
+                <view class="item-title">{{item.title}}</view>
+                <view class="item-desc">{{item.des}}克</view>
+              </view>
+            </view>
+            <view class="right">
+              <span class="item-val">{{item.kaluli}}</span>大卡
+            </view>
+          </view>
+        </view>
+  </view>
+</view>

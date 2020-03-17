@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main">
+  <view class="today">
+    当前{{ info.temp }}℃
+  </view>
+  <view>最低温度{{ info.low }}</view>
+    <view>最高温度{{ info.high }}</view>
+    天气{{ info.type }}
+    {{ info.city }}
+    {{ info.week }}
+    {{ info.weather }}
+  </view>
+</view>

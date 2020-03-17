@@ -1,0 +1,46 @@
+/* pages/headline/headline.wxss */
+.swiper-tab{
+    width: 100%;
+    text-align: center;
+    line-height: 80rpx;}
+.swiper-tab-list{  font-size: 30rpx;
+    display: inline-block;
+    width: 25%;
+    color: #777777;
+    font-weight: bold;
+}
+.on{ color: rgb(255, 0, 21);
+    border-bottom: 3rpx solid rgb(255, 0, 21);}
+
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }
+.swiper-box view{
+    text-align: center;
+}
+
+.sees{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.desc{
+  margin-left: 20px;
+  line-height: 30px;
+}
+.title{
+  font-weight: bold;
+}
+.count{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #999999;
+}
+.look{
+  position: absolute;
+  right: 70px;
+}
+.say{
+  position: absolute;
+  right: 10px;
+}

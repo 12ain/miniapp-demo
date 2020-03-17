@@ -1,0 +1,6 @@
+<view class='container'>
+  <text>本周推荐</text>
+  <image src='/images/jf.jpg'></image>
+  <text>微信小程序开发</text>
+  <text>水平这么差还不学习？</text>
+</view>

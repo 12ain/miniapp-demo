@@ -1,0 +1,26 @@
+<!--pages/headline/headline.wxml-->
+<view class="container">
+  <view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">头条</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">健康养生</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">烹饪技巧</view>
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">美食精选</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+    <swiper-item>
+        <view>
+        <import src="/pages/cook/cook.wxml"></import>
+        <template is="listBar" data="{{test}}"></template>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view>2</view>
+    </swiper-item>
+    <swiper-item>
+        <view>3</view>
+    </swiper-item>
+    <swiper-item>
+        <view>4</view>
+    </swiper-item>
+</swiper>
+</view>

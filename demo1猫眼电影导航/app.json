@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index", 
+    "pages/find/index",
+    "pages/cinema/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ef4238",
+    "navigationBarTitleText": "电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#ef4238",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/bar/movie-0.jpg",
+        "selectedIconPath":"images/bar/movie-1.jpg"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "images/bar/find-0.jpg",
+        "selectedIconPath": "images/bar/find-1.jpg"
+      },
+      {
+        "pagePath": "pages/cinema/index",
+        "text": "影院",
+        "iconPath": "images/bar/cinema-0.jpg",
+        "selectedIconPath": "images/bar/cinema-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "images/bar/me-0.jpg",
+        "selectedIconPath": "images/bar/me-1.jpg"
+      }
+    ],
+    "usingComponents": {}
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  ,
+  "debug":true
+}
