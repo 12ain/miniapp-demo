@@ -1,0 +1,6 @@
+<swiper class="img" indicator-dots autoplay interval='3000' duration='3000'>
+    <swiper-item><image src="/images/1.jpg" style="width:100%;"></image></swiper-item>
+    <swiper-item><image src="/images/2.jpg" style="width:100%;"></image></swiper-item>
+    <swiper-item><image src="/images/3.jpg" style="width:100%;"></image></swiper-item>
+    <swiper-item><image src="/images/4.jpg" style="width:100%;"></image></swiper-item>
+  </swiper>

@@ -1,0 +1,28 @@
+<view class="container">
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{ imgs }}" wx:for-index="index" wx:key="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view>
+    <form>
+      <view class="user">
+        <label for="user">
+          <i class="mintui mintui-renyuanguanli"></i>
+          <text>账号</text>
+          <input type="text" placeholder="请输入用户名" name='username' bindinput="usernameInput"></input>
+        </label>
+      </view>
+      <view class="password">
+        <label for="password">
+          <i class="mintui mintui-mima"></i>
+          <text>密码</text>
+          <input type="text" placeholder="请输入密码" type="password" name='password' bindinput="passwordInput"></input>
+        </label>
+      </view>
+      <button class="login" bindtap="login">登录</button>
+    </form>
+  </view>
+</view>

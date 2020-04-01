@@ -1,0 +1,19 @@
+
+<view class='collection_view'>
+  <view class='tabbar_view'>
+    <view bindtap='navbarchange_func' data-current="0" class="nav {{current==0 ? 'active' : ''}}">
+      <text class="navtext {{current==0 ? 'active' : ''}}">账号密码登录</text>
+    </view>
+    <view bindtap='navbarchange_func' data-current="1" class="nav {{current==1 ? 'active' : ''}}">
+      <text class="navtext {{current==1 ? 'active' : ''}}">手机快捷登录</text>
+    </view>
+  </view>
+  <swiper class='swiper' indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" indicator-active-color="#fff" indicator-color="#aaa" bindchange="swiperitemchange_func">
+    <swiper-item>
+            请输入账户密码
+    </swiper-item>
+    <swiper-item>
+            请输入手机号
+    </swiper-item>
+  </swiper>
+</view>

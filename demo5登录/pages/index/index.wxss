@@ -1,0 +1,24 @@
+.user, .password {
+  display: flex;
+  border: solid 1rpx;
+  margin: 15rpx 20rpx;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+label i {
+  margin: 30rpx;
+}
+
+label input {
+  padding: 0 30rpx;
+}
+
+.login {
+  margin-top: 80rpx;
+  background-color: #04be02;
+  color: white;
+}
