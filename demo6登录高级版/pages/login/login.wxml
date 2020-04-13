@@ -1,0 +1,31 @@
+<!-- pages/login/login.wxml -->
+<view class="content">
+    <form>
+        <view class="user">
+            <label for="user">
+                <i class="mintui mintui-renyuanguanli"></i>
+                <text>账号</text>
+                <input type="text" placeholder="用户名/邮箱/手机号" name='username' bindinput="accountInput"></input>
+            </label>
+        </view>
+        <view class="hr"></view>
+        <view class="password">
+            <label for="password">
+                <i class="mintui mintui-mima"></i>
+                <text>密码</text>
+                <input type="text" placeholder="请输入密码" type="password" name='password' bindblur="pwdBlur"></input>
+            </label>
+        </view>
+        <view class="hr"></view>
+    </form>
+    <button class="btn" disabled="{{disabled}}" type="{{btnstate}}" bindtap="checkLogin">登录</button>
+    <view class="operate">
+        <view>
+            <navigator url="../mobile/mobile">手机快速注册</navigator>
+        </view>
+        <view>
+            <navigator url="../company/company">企业用户注册</navigator>
+        </view>
+        <view>找回密码</view>
+    </view>
+</view>
