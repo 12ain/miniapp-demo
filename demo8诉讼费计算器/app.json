@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/divorce/divorce"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "诉讼费计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "财产",
+        "iconPath": "images/caichan.png",
+        "selectedIconPath": "images/caichan-active.png"
+      },
+      {
+        "pagePath": "pages/divorce/divorce",
+        "text": "离婚",
+        "iconPath": "images/lihun.png",
+        "selectedIconPath": "images/lihun-active.png",
+        "selectedColor": "red"
+      }
+    ],
+    "selectedColor": "#ff0000"
+  }
+}
